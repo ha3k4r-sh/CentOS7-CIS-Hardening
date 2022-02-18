@@ -1,10 +1,10 @@
 # CIS CentOS7-Hardening script
 
-Hello There,
-
-We all know that CentOS 7 is widely used and I did the hardening for one my Dev/QA and Prod Env. I thought this script may helps others as well.
-
-This script  remediates 142 out of 223 security policies,
+---
+## CIS Hardening
+- We all know that CentOS 7 is widely used and I did the hardening for one my Dev/QA and Prod Env. I thought this script may helps others as well.
+- This script  remediates 142 out of 223 security policies.
+---
 
 Check the full script before using it - this may break multiple services
 Test it in Dev/QA ENV and then go for Prod
