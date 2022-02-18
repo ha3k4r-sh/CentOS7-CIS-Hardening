@@ -1,4 +1,4 @@
-# CentOS7-Hardening script for CIS
+# CIS CentOS7-Hardening script
 
 Hello There,
 
