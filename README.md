@@ -163,7 +163,8 @@ S.No  | Control
 
     [+] Make sure you are logged in to the virtual machine as a root user.
     [+] Open the bash terminal and download the script from GitHub using the following command:
-    [+] wget 
-    [+] sudo su
-    [+] bash centos7hardening.sh 
+    
+    wget https://raw.githubusercontent.com/ha3k4r-sh/CentOS7-CIS-Hardening/main/centos7_hardening.sh
+    sudo su
+    bash centos7_hardening.sh 
 
