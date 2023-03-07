@@ -10,6 +10,20 @@ Check the full script before using it - this may break multiple services
 Test it in Dev/QA ENV and then go for Prod
 If you face any issue - please reach me at aadham.m@outlook.com
 
+Note: After you implement this script if ssh breaks please follow below,
+
+Change /etc/ssh/sshd_config
+
+MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512,hmac-sha2-256,umac-128@openssh.com
+
+change:
+
+/etc/hosts.allow
+
+sshd : 10.1.1.99, LOCAL
+sshd : SSHAllowedIP, LOCAL
+
+
 **Policy Title : **
 
 
